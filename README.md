@@ -11,7 +11,7 @@ Génération de résultats structurés
 
 Clone le dépôt :
 
-git clone https://github.com/ton-utilisateur/ton-projet.git
+git clone https://github.com/stephanieleurquin/system-analyser.git
 cd ton-projet
 
 Installe les dépendances (si tu en as) :
