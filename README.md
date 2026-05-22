@@ -1,38 +1,47 @@
-Ce projet contient un script Python (analyser.py) permettant d’analyser des données et de générer des résultats à partir de fichiers ou d’entrées fournies par l’utilisateur.
+🖥️ System Analyser
+📌 Description
 
-Le but du script est d’automatiser l’analyse et de fournir une sortie claire et exploitable.
+System Analyser est un script Python qui permet de surveiller et analyser les ressources de l’ordinateur en temps réel, notamment :
+
+💻 Utilisation du CPU
+🧠 Utilisation de la RAM
+💾 Utilisation du disque
+
+Le script affiche des informations système claires et exploitables pour comprendre l’état de la machine.
 
 ⚙️ Fonctionnalités
-Lecture et traitement de données
-Analyse automatique des informations
-Génération de résultats structurés
-(Ajoute ici tes vraies fonctionnalités si tu veux)
+Analyse en temps réel du processeur (CPU)
+Surveillance de la mémoire RAM
+Vérification de l’espace disque
+Affichage simple et lisible des résultats système
 🛠️ Installation
 
 Clone le dépôt :
 
 git clone https://github.com/stephanieleurquin/system-analyser.git
-cd ton-projet
+cd system-analyser
 
-Installe les dépendances (si tu en as) :
+Installe les dépendances :
 
-pip install -r requirements.txt
+pip install psutil
 🚀 Utilisation
 
 Lance le script avec Python :
 
 python analyser.py
 📂 Structure du projet
-.
+system-analyser/
 ├── analyser.py
 ├── README.md
-└── requirements.txt (si besoin)
-📌 Exemple
-python analyser.py data.txt
-👨‍💻 Auteur
+└── requirements.txt
+📌 Exemple de sortie
+CPU Usage: 23%
+RAM Usage: 61%
+Disk Usage: 45%
+👤 Auteur
 
 Vanschoor S.
 
 📄 Licence
 
-Ce projet est sous licence MIT (ou autre si tu veux).
+Projet personnel / open-source (modifiable)
